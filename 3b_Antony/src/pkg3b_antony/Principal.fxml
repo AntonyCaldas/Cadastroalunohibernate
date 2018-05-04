@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.PrincipalController">
+    <children>
+        <Label fx:id="label" layoutX="28.0" layoutY="29.0" minHeight="16" minWidth="69" text="Numero 1" />
+      <Label fx:id="label1" layoutX="28.0" layoutY="71.0" minHeight="16" minWidth="69" text="Numero 2" />
+      <Label fx:id="label11" layoutX="28.0" layoutY="120.0" minHeight="16" minWidth="69" text="Resultado" />
+      <TextField fx:id="txtNumero1" layoutX="28.0" layoutY="46.0" />
+      <TextField fx:id="txtNumero2" layoutX="28.0" layoutY="88.0" />
+      <TextField fx:id="txtResultado" layoutX="28.0" layoutY="137.0" />
+      <Button fx:id="btnSoma" layoutX="192.0" layoutY="137.0" mnemonicParsing="false" onAction="#somar" text="Somar" />
+      <Button fx:id="btnSubtrai" layoutX="192.0" layoutY="101.0" mnemonicParsing="false" onAction="#subtrair" text="Subtrai" />
+      <Button fx:id="btnMultiplica" layoutX="191.0" layoutY="67.0" mnemonicParsing="false" onAction="#multiplicar" text="Multiplica" />
+      <Button fx:id="btnDivide" layoutX="192.0" layoutY="34.0" mnemonicParsing="false" onAction="#dividir" text="Divide" />
+     
+    </children>
+</AnchorPane>
