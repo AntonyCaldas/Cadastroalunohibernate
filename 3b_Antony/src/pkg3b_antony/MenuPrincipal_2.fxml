@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+   <children>
+      <ImageView fitHeight="556.0" fitWidth="817.0">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="322.0" layoutY="20.0" prefHeight="32.0" prefWidth="173.0" text="Biblioteca Master" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="289.0" layoutY="65.0" prefHeight="32.0" prefWidth="239.0" text="Seja-Bem Vindo Sebastião" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="14.0" layoutY="60.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Meus Favoritos">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="147.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Reservas">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="246.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Históricos">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="343.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Mais Lidos">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="435.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Emprestimos">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <TreeTableView layoutX="221.0" layoutY="171.0" prefHeight="236.0" prefWidth="463.0">
+        <columns>
+          <TreeTableColumn prefWidth="148.0" text="Títulos" />
+          <TreeTableColumn minWidth="0.0" prefWidth="160.0" text="Autor" />
+            <TreeTableColumn prefWidth="154.0" text="Disponibilidade" />
+        </columns>
+      </TreeTableView>
+      <JFXButton layoutX="695.0" layoutY="414.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Ver Perfil">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="695.0" layoutY="478.0" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: white; -fx-border-color: black;" text="Sair">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="32.0" fitWidth="41.0" layoutX="772.0" layoutY="4.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/if_facebook_2308066.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="41.0" layoutX="729.0" layoutY="4.0">
+         <image>
+            <Image url="@../../../../../../../../Downloads/if_google-plus_2308064.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
